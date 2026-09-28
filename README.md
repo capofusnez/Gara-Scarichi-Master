@@ -36,7 +36,7 @@ Posiziona il file all'interno di una cartella dedicata.
 Avvia il programma. Il sistema di controllo integrato ti avviserà automaticamente ogni volta che sarà disponibile una nuova versione migliorata.
 
 📝 Changelog & Cronologia Versioni
-v1.7 – Tabellone LiveShow & Multi-Monitor
+Versione 1.7
 Supporto Multi-Monitor Avanzato: Possibilità di avviare il tabellone sul monitor principale come finestra normale e spostarlo liberamente su qualsiasi schermo o proiettore secondario.
 
 Schermo Intero Intelligente: Toggle rapido tramite il tasto F11 che riconosce automaticamente la posizione della finestra e la espande a schermo intero sul display di destinazione (senza "rimbalzi" indesiderati). Tasto ESC per la chiusura rapida.
@@ -45,29 +45,29 @@ UI Dinamica e Scalabile: Ridimensionamento e ricalcolo in tempo reale (tramite e
 
 Asset Integrati: Icone e loghi ufficiali inclusi direttamente nell'esecutivo standalone.
 
-v1.6 – Podio Dinamico & Ottimizzazioni Finale
+Versione 1.6
 Podio Dinamico sul Tabellone Pubblico: Aggiunto il pulsante interattivo "CHIUDI PODIO" che permette di mostrare/nascondere la cerimonia di premiazione senza chiudere l'intero tabellone pubblico live.
 
-v1.5 – Gestione Backup e Archiviazione
+Versione 1.5
 Salvataggio Dati Avanzato: Perfezionata la gestione della cartella di lavoro e dei file di backup locali dei CSV per evitare qualsiasi perdita di dati durante eventi concitati.
 
-v1.4 – Ottimizzazione Flusso Piazzola
+Versione 1.4
 Flusso Operativo Piazzola: Ridisegnati i controlli rapidi per l'operatore, velocizzando ulteriormente la transizione dei concorrenti durante le prove di scarico.
 
-v1.3 – Affidabilità Seriale
+Versione 1.3
 Stabilità Comunicazione: Implementati ulteriori filtri e controlli di robustezza sulla porta COM per prevenire disconnessioni del fonometro in ambienti disturbati.
 
-v1.2 – Interfaccia Operatore e Reattività
+Versione 1.2
 Reattività UI: Ottimizzati i loop di lettura seriale dei decibel in tempo reale per garantire un aggiornamento fluido e senza lag dell'interfaccia operatore.
 
-v1.1 – Pulizia & Controlli
+Versione 1.1
 Engine Aggiornamenti: Integrato il sistema di verifica e notifica automatica delle versioni tramite GitHub.
 
 UI Pulita: Rimossa la colonna "Veicolo" nel tabellone pubblico per garantire una lettura immediata e pulita.
 
 Stabilità: Ottimizzazione generale delle dipendenze e della gestione delle comunicazioni seriali.
 
-v1.0 – Release Iniziale
-Rilascio della soluzione professionale per la gestione completa di gare SPL (Sound Pressure Level), registrazione automatica, monitoraggio dB in tempo reale, gestione categorie e generatore di classifiche CSV.
+Versione 1.0
+Release Iniziale: Rilascio della soluzione professionale per la gestione completa di gare SPL (Sound Pressure Level), registrazione automatica, monitoraggio dB in tempo reale, gestione categorie e generatore di classifiche CSV.
 
 Progetto sviluppato per la gestione professionale di eventi motoristici e raduni.
