@@ -1,38 +1,73 @@
 Gara Scarichi - Professional System
-Il software Gara Scarichi è una soluzione professionale sviluppata per la gestione completa di gare di scarichi (Sound Pressure Level). Il sistema permette di automatizzare la registrazione dei partecipanti, monitorare in tempo reale i picchi di decibel (dB) e generare classifiche precise in modo rapido e intuitivo.
+Il software Gara Scarichi è una soluzione professionale sviluppata per la gestione completa di gare di scarichi (Sound Pressure Level - SPL). Il sistema permette di automatizzare la registrazione dei partecipanti, monitorare in tempo reale i picchi di decibel (dB) tramite connessione seriale e generare classifiche precise e dinamiche in modo rapido e intuitivo.
 
 🚀 Caratteristiche Principali
-Monitoraggio Live: Interfaccia dedicata per l'operatore con lettura seriale ultra-rapida dei dB in entrata.
+Gestione Live Piazzola: Interfaccia dedicata per l'operatore con lettura seriale ultra-rapida dei dB in entrata.
 
-Gestione Dinamica: Possibilità di resettare istantaneamente una misurazione errata o una falsa partenza.
+Funzionalità "Annulla Lancio": Possibilità di resettare istantaneamente una misurazione errata o una falsa partenza, garantendo fluidità alla competizione.
 
-Record Assoluto: Riquadro dedicato per monitorare e celebrare il record assoluto del raduno.
+Monitoraggio Speaker (Record Assoluto): Box dedicato per monitorare e celebrare in tempo reale il record assoluto del raduno per comunicazioni live coinvolgenti.
 
-Classifiche Categorizzate: Gestione automatica per Auto Benzina, Auto Diesel e Moto.
+Database Categorizzato: Gestione automatica e suddivisa per categorie (Auto Benzina, Auto Diesel e Moto).
 
-Esportazione Dati: Generazione automatica di file CSV per archiviazione e file di testo formattati per i social media.
+Classifiche Professionali: Esportazione automatica dei dati in formato CSV, con backup di sicurezza e generazione di file formattati per la condivisione sui social media.
 
-Auto-Aggiornamento: Il software verifica autonomamente la presenza di nuove versioni all'avvio tramite GitHub.
+Tabellone Pubblico Integrato: Schermata per il pubblico con aggiornamento in tempo reale dei record e podio finale automatico.
+
+Correzione Manuale: Funzionalità di rettifica rapida dei punteggi tramite un'interfaccia intuitiva.
+
+Auto-Aggiornamento: Il software verifica autonomamente la presenza di nuove versioni all'avvio sfruttando l'integrazione con le Releases di GitHub.
 
 🛠 Requisiti di Sistema
 Sistema operativo: Windows 10 o 11.
 
-Hardware: Connessione seriale (COM) per il sensore fonometro.
+Hardware: Porta/Connessione seriale (COM) per il collegamento del sensore fonometro.
 
-Non è richiesta alcuna installazione di librerie aggiuntive (tutto incluso nell'eseguibile).
+Prerequisiti: Nessuna installazione di librerie aggiuntive richiesta (pacchetto "tutto incluso" nell'eseguibile standalone tramite PyInstaller: requests, pyserial, tkinter).
+
+📂 Nota Importante sulla Cartella di Lavoro
+Si consiglia vivamente di posizionare l'eseguibile in una cartella dedicata. Il programma genera e gestisce autonomamente il file CSV con i dati dei partecipanti e le relative copie di backup al suo interno: tenerlo in una cartella pulita e isolata evita di disperdere i file di dati della gara.
 
 📥 Installazione e Aggiornamenti
-Scarica l'ultima versione dell'eseguibile (.exe) dalla sezione Releases del repository.
+Scarica l'ultima versione dell'eseguibile (.exe o Tabellone-LiveShow.exe) dalla sezione Releases del repository.
 
-Posiziona il file in una cartella dedicata.
+Posiziona il file all'interno di una cartella dedicata.
 
-Avvia il programma. Il sistema ti avviserà automaticamente ogni volta che sarà disponibile una nuova versione migliorata.
+Avvia il programma. Il sistema di controllo integrato ti avviserà automaticamente ogni volta che sarà disponibile una nuova versione migliorata.
 
-📝 Changelog V1.1
-Sistema di Controllo Aggiornamenti: Integrato il motore di verifica automatica tramite GitHub.
+📝 Changelog & Cronologia Versioni
+v1.7 – Tabellone LiveShow & Multi-Monitor
+Supporto Multi-Monitor Avanzato: Possibilità di avviare il tabellone sul monitor principale come finestra normale e spostarlo liberamente su qualsiasi schermo o proiettore secondario.
 
-Interfaccia Pulita: Rimossa la colonna "Veicolo" nel tabellone pubblico per una migliore leggibilità.
+Schermo Intero Intelligente: Toggle rapido tramite il tasto F11 che riconosce automaticamente la posizione della finestra e la espande a schermo intero sul display di destinazione (senza "rimbalzi" indesiderati). Tasto ESC per la chiusura rapida.
 
-Stabilità: Ottimizzata la gestione delle comunicazioni seriali e del layout grafico.
+UI Dinamica e Scalabile: Ridimensionamento e ricalcolo in tempo reale (tramite evento di resize) di testi, loghi e barra dei decibel in base alla risoluzione dello schermo attivo.
 
-Progetto sviluppato per la gestione professionale di eventi motoristici.
+Asset Integrati: Icone e loghi ufficiali inclusi direttamente nell'esecutivo standalone.
+
+v1.6 – Podio Dinamico & Ottimizzazioni Finale
+Podio Dinamico sul Tabellone Pubblico: Aggiunto il pulsante interattivo "CHIUDI PODIO" che permette di mostrare/nascondere la cerimonia di premiazione senza chiudere l'intero tabellone pubblico live.
+
+v1.5 – Gestione Backup e Archiviazione
+Salvataggio Dati Avanzato: Perfezionata la gestione della cartella di lavoro e dei file di backup locali dei CSV per evitare qualsiasi perdita di dati durante eventi concitati.
+
+v1.4 – Ottimizzazione Flusso Piazzola
+Flusso Operativo Piazzola: Ridisegnati i controlli rapidi per l'operatore, velocizzando ulteriormente la transizione dei concorrenti durante le prove di scarico.
+
+v1.3 – Affidabilità Seriale
+Stabilità Comunicazione: Implementati ulteriori filtri e controlli di robustezza sulla porta COM per prevenire disconnessioni del fonometro in ambienti disturbati.
+
+v1.2 – Interfaccia Operatore e Reattività
+Reattività UI: Ottimizzati i loop di lettura seriale dei decibel in tempo reale per garantire un aggiornamento fluido e senza lag dell'interfaccia operatore.
+
+v1.1 – Pulizia & Controlli
+Engine Aggiornamenti: Integrato il sistema di verifica e notifica automatica delle versioni tramite GitHub.
+
+UI Pulita: Rimossa la colonna "Veicolo" nel tabellone pubblico per garantire una lettura immediata e pulita.
+
+Stabilità: Ottimizzazione generale delle dipendenze e della gestione delle comunicazioni seriali.
+
+v1.0 – Release Iniziale
+Rilascio della soluzione professionale per la gestione completa di gare SPL (Sound Pressure Level), registrazione automatica, monitoraggio dB in tempo reale, gestione categorie e generatore di classifiche CSV.
+
+Progetto sviluppato per la gestione professionale di eventi motoristici e raduni.
