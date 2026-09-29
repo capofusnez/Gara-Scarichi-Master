@@ -47,6 +47,10 @@ Avvia il programma. Il sistema di controllo integrato ti avviserà automaticamen
 
 ---
 
+Consulta il [Changelog completo](https://github.com/capofusnez/Gara-Scarichi-Master/blob/main/CHANGELOG.md) per scoprire tutte le novità e la cronologia degli aggiornamenti.
+
+---
+
 Progetto sviluppato per la gestione professionale di eventi motoristici e raduni.
 
 ---
